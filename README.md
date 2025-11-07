@@ -171,7 +171,6 @@ save and exit
 ### Create docker-compose.yml
 
 ```bash
-cd /root/aztec
 nano docker-compose.yml
 ```
 
@@ -206,7 +205,6 @@ services:
 ## Part 6: Start the Node
 
 ```bash
-cd /root/aztec
 docker compose up -d
 ```
 
