@@ -76,6 +76,13 @@ check if you have joined the validator queue in https://dashtec.xyz/queue by sea
 
 ## Part 4: Set Up Node Directory Structure
 
+### Delete the existing configuration
+```bash
+cd /root/aztec && docker compose down 
+```
+```bash
+cd && rm -rf aztec
+```
 ### Create Node Directory
 
 ```bash
