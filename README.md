@@ -54,7 +54,7 @@ Now that you have Aztec CLI installed, let's create your validator keys.
 aztec validator-keys new \
   --fee-recipient 0x0000000000000000000000000000000000000000000000000000000000000000
 ```
-save it somewhere. if you have done this before, use `cat ~/.aztec/keystore/key1.json` to see your keys.
+save it somewhere. 
 fund your attester address with min 0.2 sepolia eth
 
 ## Part 3: Register Your Validator on the Network
