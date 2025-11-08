@@ -86,7 +86,7 @@ after running the cmd, check if you have joined the validator queue in https://d
 cd /root/aztec && docker compose down 
 ```
 ```bash
-cd && rm -rf aztec
+cd && rm -rf aztec && rm -rf ~/.aztec/testnet/data/
 ```
 ### Create Node Directory
 
