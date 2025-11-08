@@ -76,8 +76,8 @@ aztec \
   --bls-secret-key $BLS_ATTESTER_PRIV_KEY \
   --rollup 0xebd99ff0ff6677205509ae73f93d0ca52ac85d67
 ```
-you can use a public rpc like `https://0xrpc.io/sep` . use the attester and bls key you got before. a pv key to pay gas fee and stake 200stk tokens on rollup and a withdrawer address to withdraw your stake.
-check if you have joined the validator queue in https://dashtec.xyz/queue by searching attester address.
+you can use a public rpc like `https://0xrpc.io/sep` . use the attester address and bls key you got from part2. use the same pv key u used for the cmd above to approve 200k stk tokens. a withdrawer address to withdraw your stake and rewards. can be any if your addresses.
+after running the cmd, check if you have joined the validator queue in https://dashtec.xyz/queue by searching attester address.
 
 ## Part 4: Set Up Node Directory Structure
 
