@@ -50,7 +50,6 @@ You should see the Aztec CLI version (2.1.2).
 Now that you have Aztec CLI installed, let's create your validator keys.
 
 ### Generate Keystore with Aztec CLI
-
 ```bash
 aztec validator-keys new \
   --fee-recipient 0x0000000000000000000000000000000000000000000000000000000000000000
@@ -59,7 +58,13 @@ save it somewhere. if you have done this before, use `cat ~/.aztec/keystore/key1
 fund your attester address with min 0.2 sepolia eth
 
 ## Part 3: Register Your Validator on the Network
+### Approve 200k stk tokens
+```bash
+cast send 0x139d2a7a0881e16332d7D1F8DB383A4507E1Ea7A "approve(address,uint256)" 0xebd99ff0ff6677205509ae73f93d0ca52ac85d67 200000ether --private-key "$PRIVATE_KEY_OF_OLD_SEQUENCER" --rpc-url $ETH_RPC
+```
+use the pv key of your sequencer node and use any sepolia rpc from e.g. chainlist
 
+### register the validator 
 ```bash
 aztec \
   add-l1-validator \
